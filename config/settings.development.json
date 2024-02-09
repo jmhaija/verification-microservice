@@ -1,0 +1,22 @@
+{
+  "emailAddress": {
+    "source": "support@merlinpayments.com",
+    "replyTo": "support@merlinpayments.com",
+    "returnPath": "support@merlinpayments.com"
+  },
+  "verification-webview": {
+    "baseUrl": "http://localhost:8082"
+  },
+  "rcc": {
+    "api": {
+      "domain": "http://localhost:8000"
+    }
+  },
+  "server": {
+    "port": 3000
+  },
+  "verification": {
+    "tokenLength": 256,
+    "tokenExpiry": 86400000
+  }
+}
